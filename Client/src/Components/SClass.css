@@ -1,0 +1,154 @@
+
+.S8main-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background-size: cover;
+    list-style-type:none;
+}
+
+.S8container{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+    background-size: cover;
+}
+
+.S8container .S8section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+
+.S8container .S8section:nth-child(1)
+{
+    background-image: url('https://wallpapercave.com/wp/wp3925736.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.S8container .S8section:nth-child(2)
+{
+    background:black;
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.S8container .S8section:nth-child(3)
+{
+    background-image: url('https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https%3A%2F%2Fcdni.autocarindia.com%2FExtraImages%2F20200902062743_Mercedes-Benz-S-Class-2021-dashboard.jpg&h=795&w=1200&c=1');
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.S8container .S8section:nth-child(4)
+{
+    background-image: url('https://wallpapercave.com/wp/wp3925753.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+
+
+.S8nav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.S8div-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.S8nav-home{
+    position:absolute;
+    left:0px;
+    color: black;
+}
+
+.S8nav-lambo{
+    position: absolute;
+    color:black;
+    left:200px;
+}
+.S8nav-tesla{
+    position: absolute;
+    color:black;
+    left:400px;
+}
+.S8nav-ferari{
+    position: absolute;
+    color:#000000;
+    left:600px;
+}
+
+.S8nav-benz{
+    position: absolute;
+    left:800px;
+    color:black;
+}
+
+
+.S8nav-tesla:hover{
+    transform: scale(1.5);
+}
+.S8nav-lambo:hover {
+    transform: scale(1.5);
+}
+.S8nav-benz:hover {
+    transform: scale(1.5);
+}
+.S8nav-ferari:hover {
+    transform: scale(1.5);
+}
+.S8nav-home:hover {
+    transform: scale(1.5);
+}
+
+.S8span{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}
+
+video{
+    position:relative;
+    top:0px;
+    left:0;
+    object-fit: 100% 100%;
+    width: 100%;
+}
+
+
+ol{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+}
+
+
+.div-Sa3a{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.div-Sa3ab{
+    font-family: 'Roboto Condensed', sans-serif;
+}

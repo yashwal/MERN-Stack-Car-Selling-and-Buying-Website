@@ -1,0 +1,43 @@
+.main-div{
+    font-style:italic bold;
+    text-align: center;
+    background:black;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    
+}
+
+
+.nav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+   
+}
+
+
+.div-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    top:15px;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+
+.div-svg{
+    height: 30px;
+    width: 30px;
+    padding:0 20px;
+    position:absolute;
+    left:-50px;
+}
+

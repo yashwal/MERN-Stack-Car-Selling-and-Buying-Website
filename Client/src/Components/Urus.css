@@ -1,0 +1,153 @@
+.Urmain-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background-size: cover;
+    list-style-type:none;
+}
+
+.Urcontainer{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+    background-size: cover;
+}
+
+.Urcontainer .Ursection{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+
+.Urcontainer .Ursection:nth-child(1)
+{
+    background-image: url('https://images8.alphacoders.com/887/887957.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.Urcontainer .Ursection:nth-child(2)
+{
+    background:black;
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.Urcontainer .Ursection:nth-child(3)
+{
+    background-image: url('https://www.hdcarwallpapers.com/walls/lamborghini_aventador_interior_cgi-HD.jpg');
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.Urcontainer .Ursection:nth-child(4)
+{
+    background-image: url('https://i.pinimg.com/originals/47/04/6c/47046cf00b308281498ddfecefcf1214.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+
+
+.Urnav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.Urdiv-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.Urnav-home{
+    position:absolute;
+    left:0px;
+    color: black;
+}
+
+.Urnav-lambo{
+    position: absolute;
+    color:black;
+    left:200px;
+}
+.Urnav-tesla{
+    position: absolute;
+    color:black;
+    left:400px;
+}
+.Urnav-ferari{
+    position: absolute;
+    color:#000000;
+    left:600px;
+}
+
+.Urnav-benz{
+    position: absolute;
+    left:800px;
+    color:black;
+}
+
+
+.Urnav-tesla:hover{
+    transform: scale(1.5);
+}
+.Urnav-lambo:hover {
+    transform: scale(1.5);
+}
+.Urnav-benz:hover {
+    transform: scale(1.5);
+}
+.Urnav-ferari:hover {
+    transform: scale(1.5);
+}
+.Urnav-home:hover {
+    transform: scale(1.5);
+}
+
+.Urspan{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}
+
+video{
+    position:relative;
+    top:0px;
+    left:0;
+    object-fit: 100% 100%;
+    width: 100%;
+}
+
+
+ol{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+}
+
+
+.div-Ur3a{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.div-Ur3b{
+    font-family: 'Roboto Condensed', sans-serif;
+}

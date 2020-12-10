@@ -1,0 +1,154 @@
+
+.G8main-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background-size: cover;
+    list-style-type:none;
+}
+
+.G8container{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+    background-size: cover;
+}
+
+.G8container .G8section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+
+.G8container .G8section:nth-child(1)
+{
+    background-image: url('https://wallpapercave.com/wp/wp2616401.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.G8container .G8section:nth-child(2)
+{
+    background:black;
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.G8container .G8section:nth-child(3)
+{
+    background-image: url('https://cdn.motor1.com/images/mgl/Y4P2y/s1/2019-mercedes-benz-g-class-interior.jpg');
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.G8container .G8section:nth-child(4)
+{
+    background-image: url('https://images.hdqwalls.com/wallpapers/mercedes-g-class-side-view-2f.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+
+
+.G8nav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.G8div-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.G8nav-home{
+    position:absolute;
+    left:0px;
+    color: black;
+}
+
+.G8nav-lambo{
+    position: absolute;
+    color:black;
+    left:200px;
+}
+.G8nav-tesla{
+    position: absolute;
+    color:black;
+    left:400px;
+}
+.G8nav-ferari{
+    position: absolute;
+    color:#000000;
+    left:600px;
+}
+
+.G8nav-benz{
+    position: absolute;
+    left:800px;
+    color:black;
+}
+
+
+.G8nav-tesla:hover{
+    transform: scale(1.5);
+}
+.G8nav-lambo:hover {
+    transform: scale(1.5);
+}
+.G8nav-benz:hover {
+    transform: scale(1.5);
+}
+.G8nav-ferari:hover {
+    transform: scale(1.5);
+}
+.G8nav-home:hover {
+    transform: scale(1.5);
+}
+
+.G8span{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}
+
+video{
+    position:relative;
+    top:0px;
+    left:0;
+    object-fit: 100% 100%;
+    width: 100%;
+}
+
+
+ol{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+}
+
+
+.div-Ga3a{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.div-Ga3ab{
+    font-family: 'Roboto Condensed', sans-serif;
+}

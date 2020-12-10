@@ -1,0 +1,196 @@
+.Nmain-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+   
+}
+
+.Ncontainer{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+}
+
+.Ncontainer .Nsection{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+
+.Ncontainer .Nsection:nth-child(1)
+{
+    background-image: url('https://www.wallpapertip.com/wmimgs/27-277916_cool-lamborghini-wallpapers-blue.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.Ncontainer .Nsection:nth-child(2)
+{
+    background-image: url('https://wallpaperaccess.com/full/486595.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.Ncontainer .Nsection:nth-child(3)
+{
+    background-image: url('https://wallpapercave.com/wp/wp2769069.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Ncontainer .Nsection:nth-child(4)
+{
+    background-image: url('https://wallpaperaccess.com/full/814859.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.Nnav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.Ndiv-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.Nnav-home{
+    position:absolute;
+    left:0px;
+    color: black;
+}
+
+.Nnav-lambo{
+    position: absolute;
+    color:black;
+    left:200px;
+}
+.Nnav-tesla{
+    position: absolute;
+    color:black;
+    left:450px;
+}
+.Nnav-ferari{
+    position: absolute;
+    color:#000000;
+    left:650px;
+
+}
+
+.Nnav-benz{
+    position: absolute;
+    left:850px;
+    color:black;
+}
+
+
+.Nnav-tesla:hover{
+    transform: scale(1.5);
+}
+.Nnav-lambo:hover {
+    transform: scale(1.5);
+}
+.Nnav-benz:hover {
+    transform: scale(1.5);
+}
+.Nnav-ferari:hover {
+    transform: scale(1.5);
+}
+.Nnav-home:hover {
+    transform: scale(1.5);
+}
+
+.Nspan{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}
+
+
+.slider-wrapper {
+    font-size: 40px;
+    color:#aaa;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:100px;
+    scroll-behavior: smooth;
+    left: 30px;
+  }
+  .slider{
+    height: 50px;
+    padding-left:15px;
+    overflow: hidden;
+  }
+  .slider div {
+    color:black;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 2px 15px;
+    text-align: center;
+    box-sizing: border-box;
+    
+  }
+  .slider-text1 {
+ 
+    animation: slide 5s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {margin-top:-300px;}
+    5% {margin-top:-200px;}
+    33% {margin-top:-200px;}
+    38% {margin-top:-100px;}
+    66% {margin-top:-100px;}
+    71% {margin-top:0px;}
+    100% {margin-top:0px;}
+  }
+  
+.header_content button{
+	height: auto;
+	padding: 8px 37px;
+	font-size: 12px;
+	background: rgb(0,0,0,0.5);
+	margin-right: 20px;
+	border-radius: 3px;
+    border: 1px white solid;
+    position: relative;
+    top:190px;
+    left: -350px;
+    
+}
+
+.header_content button a{
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.header_content button:hover{
+	background-color: orange;
+	border: 1px solid orange;
+}

@@ -1,0 +1,154 @@
+
+.A8main-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background-size: cover;
+    list-style-type:none;
+}
+
+.A8container{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+    background-size: cover;
+}
+
+.A8container .A8section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+
+.A8container .A8section:nth-child(1)
+{
+    background-image: url('https://wallpapercave.com/wp/wp2203277.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.A8container .A8section:nth-child(2)
+{
+    background:black;
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.A8container .A8section:nth-child(3)
+{
+    background-image: url('https://images.caricos.com/m/mercedes-benz/2019_mercedes-benz_a-class_sedan/images/2560x1440/2019_mercedes-benz_a-class_sedan_54_2560x1440.jpg');
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.A8container .A8section:nth-child(4)
+{
+    background-image: url('https://cdn.motor1.com/images/mgl/xVOjy/s3/nouvelle-mercedes-classe-a-face-a-lancienne.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+
+
+.A8nav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.A8div-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.A8nav-home{
+    position:absolute;
+    left:0px;
+    color: black;
+}
+
+.A8nav-lambo{
+    position: absolute;
+    color:black;
+    left:200px;
+}
+.A8nav-tesla{
+    position: absolute;
+    color:black;
+    left:400px;
+}
+.A8nav-ferari{
+    position: absolute;
+    color:#000000;
+    left:600px;
+}
+
+.A8nav-benz{
+    position: absolute;
+    left:800px;
+    color:black;
+}
+
+
+.A8nav-tesla:hover{
+    transform: scale(1.5);
+}
+.A8nav-lambo:hover {
+    transform: scale(1.5);
+}
+.A8nav-benz:hover {
+    transform: scale(1.5);
+}
+.A8nav-ferari:hover {
+    transform: scale(1.5);
+}
+.A8nav-home:hover {
+    transform: scale(1.5);
+}
+
+.A8span{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}
+
+video{
+    position:relative;
+    top:0px;
+    left:0;
+    object-fit: 100% 100%;
+    width: 100%;
+}
+
+
+ol{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+}
+
+
+.div-Aa3a{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.div-Aa3ab{
+    font-family: 'Roboto Condensed', sans-serif;
+}

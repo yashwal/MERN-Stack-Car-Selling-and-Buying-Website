@@ -1,0 +1,161 @@
+.main-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    
+    
+}
+
+.container{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+}
+
+.container .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+   
+}
+
+.container .section:nth-child(1)
+{
+    background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/10best-cars-group-cropped-1542126037.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.container .section:nth-child(2)
+{
+    background-image: url('https://motorcarparts.com/content/uploads/2019/08/Product_Lockup.png');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.nav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.div-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    font-family:'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.nav-home{
+    position:absolute;
+    left:0px;
+    color: black;
+}
+
+.nav-lambo{
+    position: absolute;
+    color:black;
+    left:250px;
+}
+.nav-tesla{
+    position: absolute;
+    color:black;
+    left:500px;
+}
+.nav-ferari{
+    position: absolute;
+    color:#000000;
+    left:800px;
+}
+
+
+
+.nav-tesla:hover{
+    transform: scale(1.5);
+}
+.nav-lambo:hover {
+    transform: scale(1.5);
+}
+.nav-benz:hover {
+    transform: scale(1.5);
+}
+.nav-ferari:hover {
+    transform: scale(1.5);
+}
+.nav-home:hover {
+    transform: scale(1.5);
+}
+
+.span{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}
+
+.Hcontent h2{
+	height: auto;
+    position: relative;
+    top:100px;
+    color:black;  
+    font-size: 3em;
+} 
+
+.Hcontent h3{
+	height: auto;
+    position: relative;
+    top:150px;
+    color: beige;  
+} 
+
+.Hcontent h4{
+	height: auto;
+    position: relative;
+    top:80px;
+    color: rgb(26, 25, 25);
+    font-size: 2em;    
+} 
+
+
+.Hcontent button{
+	height: auto;
+	padding: 8px 37px;
+	font-size: 12px;
+	background: rgb(0,0,0,0.5);
+	margin-right: 20px;
+	border-radius: 3px;
+    border: 1px white solid;
+    position: relative;
+    top:190px;
+    left: 0px;
+    
+}
+
+.Hcontent button a{
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: white;
+}
+
+.Hcontent button:hover{
+	background-color: red;
+	border: 1px solid red;
+}
+

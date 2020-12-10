@@ -1,0 +1,11 @@
+.main-footer {
+    color: white;
+    background-color: rgb(49, 46, 46);
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    list-style-type:none;
+    overflow:hidden;
+
+  }

@@ -1,0 +1,131 @@
+.Tmain-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+   
+}
+
+.Tcontainer{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+}
+
+.Tcontainer .Tsection{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+
+.Tcontainer .Tsection:nth-child(1)
+{
+    background-image: url('https://wallpaperaccess.com/full/1152717.jpg');
+    background-size: 100%;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.Tcontainer .Tsection:nth-child(2)
+{
+    background-image: url('https://wallpaperaccess.com/full/486595.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}.Tcontainer .Tsection:nth-child(3)
+{
+    background-image: url('https://wallpapercave.com/wp/wp4318714.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.Tcontainer .Tsection:nth-child(4)
+{
+    background-image: url('https://autodius.com/wp-content/uploads/2019/11/tesla-model-y-2021.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+.Tnav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.Tdiv-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.Tnav-home{
+    position:absolute;
+    left:0px;
+    color: black;
+}
+
+.Tnav-lambo{
+    position: absolute;
+    color:black;
+    left:200px;
+}
+.Tnav-tesla{
+    position: absolute;
+    color:black;
+    left:400px;
+}
+.Tnav-ferari{
+    position: absolute;
+    color:#000000;
+    left:600px;
+
+}
+
+.Tnav-benz{
+    position: absolute;
+    left:800px;
+    color:black;
+}
+
+
+.Tnav-tesla:hover{
+    transform: scale(1.5);
+}
+.Tnav-lambo:hover {
+    transform: scale(1.5);
+}
+.Tnav-benz:hover {
+    transform: scale(1.5);
+}
+.Tnav-ferari:hover {
+    transform: scale(1.5);
+}
+.Tnav-home:hover {
+    transform: scale(1.5);
+}
+
+.Tspan{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}

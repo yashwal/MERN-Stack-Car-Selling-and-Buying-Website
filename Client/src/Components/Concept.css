@@ -1,0 +1,157 @@
+.Comain-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background-size: cover;
+    list-style-type:none;
+    background:pink;
+}
+
+.Cocontainer{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+    background-size: cover;
+}
+
+.Cocontainer .Cosection{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+
+.Cocontainer .Cosection:nth-child(1)
+{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ab15e7be-ab9a-4fe2-966e-63d73c3437be/dcq6hhd-665b256d-27ca-4a0c-ae08-b4cadd04d15f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYWIxNWU3YmUtYWI5YS00ZmUyLTk2NmUtNjNkNzNjMzQzN2JlXC9kY3E2aGhkLTY2NWIyNTZkLTI3Y2EtNGEwYy1hZTA4LWI0Y2FkZDA0ZDE1Zi5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.lTvrzKEw-TAsOr-IsvLly1O77BbYYbl-1bEns6oDXo8');
+    background-size:100% 100%;
+    background-attachment: fixed;
+
+
+}
+.Cocontainer .Cosection:nth-child(2)
+{
+    background:black;
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.Cocontainer .Cosection:nth-child(3)
+{
+    background-image: url('https://www.hdcarwallpapers.com/walls/lamborghini_aventador_interior_cgi-HD.jpg');
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.Cocontainer .Cosection:nth-child(4)
+{
+    background-image: url('https://i.pinimg.com/originals/3e/fd/45/3efd452fbca3900f750d0dd29cfd54eb.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+
+
+.Conav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.Codiv-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.Conav-home{
+    position:absolute;
+    left:0px;
+    color: white;
+}
+
+.Conav-lambo{
+    position: absolute;
+    color:white;
+    left:200px;
+}
+.Conav-tesla{
+    position: absolute;
+    color:white;
+    left:400px;
+}
+.Conav-ferari{
+    position: absolute;
+    color:white;
+    left:600px;
+
+}
+
+.Conav-benz{
+    position: absolute;
+    left:800px;
+    color:white;
+}
+
+
+.Conav-tesla:hover{
+    transform: scale(1.5);
+}
+.Conav-lambo:hover {
+    transform: scale(1.5);
+}
+.Conav-benz:hover {
+    transform: scale(1.5);
+}
+.Conav-ferari:hover {
+    transform: scale(1.5);
+}
+.Conav-home:hover {
+    transform: scale(1.5);
+}
+
+.Cospan{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}
+
+video{
+    position:relative;
+    top:0px;
+    left:0;
+    object-fit: 100% 100%;
+    width: 100%;
+}
+
+
+ol{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+}
+
+
+.div-Co3a{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.div-Co3b{
+    font-family: 'Roboto Condensed', sans-serif;
+}

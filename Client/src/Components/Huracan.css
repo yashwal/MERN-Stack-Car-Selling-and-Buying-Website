@@ -1,0 +1,156 @@
+.Humain-div{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background-size: cover;
+    list-style-type:none;
+    background: pink;
+
+}
+
+.Hucontainer{
+    font-style:italic bold;
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height: 100vh; 
+    scroll-snap-type: y mandatory;
+    display: block;
+    background-size: cover;
+}
+
+.Hucontainer .Husection{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    background-blend-mode: multiply;
+    background-size:cover;
+}
+
+.Hucontainer .Husection:nth-child(1)
+{
+    background-image: url('https://images.caricos.com/l/lamborghini/2019_lamborghini_huracan_evo/images/2560x1440/2019_lamborghini_huracan_evo_42_2560x1440.jpg');
+    background-size:100% 100%;
+    background-attachment: fixed;
+
+}
+.Hucontainer .Husection:nth-child(2)
+{
+    background:black;
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+.Hucontainer .Husection:nth-child(3)
+{
+    background-image: url('https://www.hdcarwallpapers.com/walls/lamborghini_aventador_interior_cgi-HD.jpg');
+    background-size: 100% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.Hucontainer .Husection:nth-child(4)
+{
+    background-image: url('https://s1.1zoom.me/b5050/129/Lamborghini_HuracanBlue_446715_1920x1080.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+
+
+.Hunav{
+    height: 40px;
+    border: 1px solid #dfdfdf;
+}
+
+
+.Hudiv-header{
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration:none;
+    position:relative;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+    background-size: cover;
+    background:transparent;
+    top:10px;
+}
+
+.Hunav-home{
+    position:absolute;
+    left:0px;
+    color: black;
+}
+
+.Hunav-lambo{
+    position: absolute;
+    color:black;
+    left:200px;
+}
+.Hunav-tesla{
+    position: absolute;
+    color:black;
+    left:400px;
+}
+.Hunav-ferari{
+    position: absolute;
+    color:#000000;
+    left:600px;
+
+}
+
+.Hunav-benz{
+    position: absolute;
+    left:800px;
+    color:black;
+}
+
+
+.Hunav-tesla:hover{
+    transform: scale(1.5);
+}
+.Hunav-lambo:hover {
+    transform: scale(1.5);
+}
+.Hunav-benz:hover {
+    transform: scale(1.5);
+}
+.Hunav-ferari:hover {
+    transform: scale(1.5);
+}
+.Hunav-home:hover {
+    transform: scale(1.5);
+}
+
+.Huspan{
+    font-size:2em;
+    top:50px;
+    position: relative;
+}
+
+video{
+    position:relative;
+    top:0px;
+    left:0;
+    object-fit: 100% 100%;
+    width: 100%;
+}
+
+
+ol{
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none;
+}
+
+
+.div-Hur3a{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.div-Hur3b{
+    font-family: 'Roboto Condensed', sans-serif;
+}
